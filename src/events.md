@@ -6,7 +6,7 @@ layout: base.njk
 
 <h1 class="display-1 text-success">{{title}}</h1>
 
-![{{title}}]({{img}})
+![{{title}}]({{img | url}})
 
 This is the events page.
 
