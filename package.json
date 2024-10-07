@@ -1,0 +1,16 @@
+{
+  "name": "site-11ty",
+  "version": "1.0.0",
+  "description": "11ty practice site",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Brook Miller",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.2.0"
+  }
+}
